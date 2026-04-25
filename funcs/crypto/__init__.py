@@ -11,7 +11,7 @@ class Crypto():
         elif type=="@": text=ascii_letters+digits
         else: text=ascii_letters+digits+punctuation
 
-        print("".join(choices(text, k=length)))
+        pprint("".join(choices(text, k=length)))
 
     def gen_key():
         print(b64encode(AESGCM.generate_key(bit_length=256)))
