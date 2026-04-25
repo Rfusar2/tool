@@ -7,4 +7,5 @@ from string import ascii_letters, digits, punctuation, ascii_lowercase, ascii_up
 
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives import padding
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from os import urandom
